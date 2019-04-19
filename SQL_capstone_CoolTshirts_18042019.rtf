@@ -1,0 +1,520 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue-Bold;\f1\fnil\fcharset0 HelveticaNeue;\f2\froman\fcharset0 Times-Bold;
+\f3\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red56\green56\blue56;\red255\green255\blue255;\red31\green31\blue31;
+\red217\green217\blue217;\red228\green229\blue229;\red109\green109\blue109;\red65\green65\blue65;\red230\green230\blue230;
+\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c28235\c28235\c28235;\cssrgb\c100000\c100000\c100000;\cssrgb\c16078\c16078\c16078;
+\cssrgb\c87843\c87843\c87843;\cssrgb\c91373\c91765\c91765;\cssrgb\c50196\c50196\c50196;\cssrgb\c32157\c32157\c32157;\cssrgb\c92157\c92157\c92157;
+\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl300\partightenfactor0
+
+\f0\b\fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 1.
+\f1\b0\fs26\fsmilli13200 How many campaigns and sources does CoolTShirts use? Which source is used for each campaign?\
+\
+SELECT COUNT(DISTINCT utm_campaign )\
+FROM page_visits;\
+\
+8 distinct campaigns\
+\
+SELECT COUNT(DISTINCT utm_source )\
+FROM page_visits;\
+\
+6 utm sources\
+\
+SELECT DISTINCT utm_source, \
+  utm_campaign\
+FROM page_visits\
+GROUP BY 1;\cb1 \
+\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat5 \clwWidth2519\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clcbpat5 \clwWidth5780\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+
+\f0\b\fs28 \cf4 \strokec4 utm_source\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf4 utm_campaign\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2319\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx4320
+\clvertalc \clcbpat9 \clwWidth5580\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+
+\f1\b0 \cf8 \strokec8 buzzfeed\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 ten-crazy-cool-tshirts-facts\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2319\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx4320
+\clvertalc \clcbpat9 \clwWidth5580\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 email\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 retargetting-campaign\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2319\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx4320
+\clvertalc \clcbpat9 \clwWidth5580\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 facebook\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 retargetting-ad\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2319\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx4320
+\clvertalc \clcbpat9 \clwWidth5580\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 google\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 cool-tshirts-search\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2319\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx4320
+\clvertalc \clcbpat9 \clwWidth5580\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 medium\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 interview-with-cool-tshirts-founder\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2319\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx4320
+\clvertalc \clcbpat9 \clwWidth5580\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 nytimes\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 getting-to-know-cool-tshirts\cell \lastrow\row
+\pard\pardeftab720\sl300\partightenfactor0
+
+\fs26\fsmilli13200 \cf2 \strokec2 \
+\pard\pardeftab720\sl300\partightenfactor0
+
+\f0\b\fs24 \cf2 \cb3 2.
+\f1\b0   
+\fs26\fsmilli13200 What pages are on the CoolTShirts website?\cb1 \
+\pard\pardeftab720\sl300\partightenfactor0
+\cf2 \
+\
+SELECT DISTINCT page_name\
+FROM page_visits;\
+\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat5 \clwWidth8360\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+
+\f0\b\fs28 \cf4 \strokec4 page_name\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth8160\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+
+\f1\b0 \cf8 \strokec8 1 - landing_page\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth8160\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 2 - shopping_cart\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth8160\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 3 - checkout\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth8160\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 4 - purchase\cell \lastrow\row
+\pard\pardeftab720\sl300\partightenfactor0
+
+\fs26\fsmilli13200 \cf2 \strokec2 \
+\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f2\b\fs24 \cf10 \strokec10 3.
+\f3\b0   
+\f1\fs35\fsmilli17600 \cf2 \cb3 \strokec2 How many first touches is each campaign responsible for?\
+\pard\pardeftab720\sl300\partightenfactor0
+
+\fs26\fsmilli13200 \cf2 \cb1 \
+WITH first_touch AS (\
+    SELECT user_id,\
+        MIN(timestamp) as first_touch_at\
+    FROM page_visits\
+    GROUP BY user_id)\
+SELECT COUNT(*) AS 'number of touches', \
+    pv.utm_source,\
+    pv.utm_campaign\
+FROM first_touch AS 'ft'\
+JOIN page_visits AS 'pv'\
+    ON ft.user_id = pv.user_id\
+    AND ft.first_touch_at = pv.timestamp\
+GROUP BY 3\
+ORDER BY 1 DESC;\
+\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat5 \clwWidth2658\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2880
+\clvertalc \clcbpat5 \clwWidth1684\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx5760
+\clvertalc \clcbpat5 \clwWidth4897\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+
+\f0\b\fs28 \cf4 \strokec4 number of touches\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf4 utm_source\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf4 utm_campaign\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2458\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx2880
+\clvertalc \clcbpat9 \clwWidth1484\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx5760
+\clvertalc \clcbpat9 \clwWidth4697\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+
+\f1\b0 \cf8 \strokec8 622\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 medium\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 interview-with-cool-tshirts-founder\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2458\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx2880
+\clvertalc \clcbpat9 \clwWidth1484\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx5760
+\clvertalc \clcbpat9 \clwWidth4697\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 612\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 nytimes\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 getting-to-know-cool-tshirts\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2458\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx2880
+\clvertalc \clcbpat9 \clwWidth1484\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx5760
+\clvertalc \clcbpat9 \clwWidth4697\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 576\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 buzzfeed\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 ten-crazy-cool-tshirts-facts\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2458\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx2880
+\clvertalc \clcbpat9 \clwWidth1484\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx5760
+\clvertalc \clcbpat9 \clwWidth4697\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 169\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 google\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 cool-tshirts-search\cell \lastrow\row
+\pard\pardeftab720\sl300\partightenfactor0
+
+\fs26\fsmilli13200 \cf2 \strokec2 \
+\pard\pardeftab720\sl300\partightenfactor0
+
+\f0\b\fs24 \cf2 \cb3 4.
+\f1\b0   
+\fs26\fsmilli13200 How many last touches is each campaign responsible for?\cb1 \
+\pard\pardeftab720\sl300\partightenfactor0
+\cf2 \
+WITH last_touch AS (\
+    SELECT user_id,\
+        MAX(timestamp) as last_touch_at\
+    FROM page_visits\
+    GROUP BY user_id)\
+SELECT COUNT(*) AS number_of_last_touches, \
+    pv.utm_source,\
+    pv.utm_campaign\
+FROM last_touch AS 'lt'\
+JOIN page_visits AS 'pv'\
+    ON lt.user_id = pv.user_id\
+    AND lt.last_touch_at = pv.timestamp\
+GROUP BY 3\
+ORDER BY 1 DESC;\
+\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat5 \clwWidth3141\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2880
+\clvertalc \clcbpat5 \clwWidth1603\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx5760
+\clvertalc \clcbpat5 \clwWidth4795\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+
+\f0\b\fs28 \cf4 \strokec4 number_of_last_touches\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf4 utm_source\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf4 utm_campaign\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2941\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx2880
+\clvertalc \clcbpat9 \clwWidth1403\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx5760
+\clvertalc \clcbpat9 \clwWidth4595\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+
+\f1\b0 \cf8 \strokec8 447\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 email\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 weekly-newsletter\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2941\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx2880
+\clvertalc \clcbpat9 \clwWidth1403\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx5760
+\clvertalc \clcbpat9 \clwWidth4595\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 443\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 facebook\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 retargetting-ad\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2941\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx2880
+\clvertalc \clcbpat9 \clwWidth1403\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx5760
+\clvertalc \clcbpat9 \clwWidth4595\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 245\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 email\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 retargetting-campaign\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2941\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx2880
+\clvertalc \clcbpat9 \clwWidth1403\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx5760
+\clvertalc \clcbpat9 \clwWidth4595\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 232\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 nytimes\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 getting-to-know-cool-tshirts\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2941\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx2880
+\clvertalc \clcbpat9 \clwWidth1403\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx5760
+\clvertalc \clcbpat9 \clwWidth4595\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 190\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 buzzfeed\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 ten-crazy-cool-tshirts-facts\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2941\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx2880
+\clvertalc \clcbpat9 \clwWidth1403\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx5760
+\clvertalc \clcbpat9 \clwWidth4595\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 184\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 medium\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 interview-with-cool-tshirts-founder\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2941\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx2880
+\clvertalc \clcbpat9 \clwWidth1403\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx5760
+\clvertalc \clcbpat9 \clwWidth4595\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 178\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 google\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 paid-search\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2941\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx2880
+\clvertalc \clcbpat9 \clwWidth1403\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx5760
+\clvertalc \clcbpat9 \clwWidth4595\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 60\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 google\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 cool-tshirts-search\cell \lastrow\row
+\pard\pardeftab720\sl300\partightenfactor0
+
+\fs26\fsmilli13200 \cf2 \strokec2 \
+\pard\pardeftab720\sl300\partightenfactor0
+
+\f0\b\fs24 \cf2 \cb3 5.
+\f1\b0  
+\fs26\fsmilli13200 How many visitors make a purchase?\
+\
+SELECT COUNT(*), page_name\
+FROM page_visits\
+WHERE page_name = '4 - purchase'\
+GROUP BY page_name;\
+\cb1 \
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat5 \clwWidth3874\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clcbpat5 \clwWidth4425\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+
+\f0\b\fs28 \cf4 \strokec4 COUNT(*)\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf4 page_name\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth3674\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx4320
+\clvertalc \clcbpat9 \clwWidth4225\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+
+\f1\b0 \cf8 \strokec8 361\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 4 - purchase\cell \lastrow\row
+\pard\pardeftab720\sl300\partightenfactor0
+
+\fs26\fsmilli13200 \cf2 \strokec2 \
+\
+
+\f0\b\fs24 \cb3 6.
+\f1\b0\fs26\fsmilli13200 How many last touches\'a0
+\i on the purchase page
+\i0 \'a0is each campaign responsible for?\cb1 \
+\
+WITH last_touch AS (\
+    SELECT user_id,\
+        MAX(timestamp) as last_touch_at\
+    FROM page_visits\
+    GROUP BY user_id)\
+SELECT COUNT(*) AS number_of_last_touches, \
+    pv.utm_source,\
+		pv.utm_campaign\
+FROM last_touch AS 'lt'\
+JOIN page_visits AS 'pv'\
+    ON lt.user_id = pv.user_id\
+    AND lt.last_touch_at = pv.timestamp\
+WHERE pv.page_name = '4 - purchase'    \
+GROUP BY 3\
+ORDER BY 1 DESC;\
+\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat5 \clwWidth3141\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2880
+\clvertalc \clcbpat5 \clwWidth1603\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx5760
+\clvertalc \clcbpat5 \clwWidth4795\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+
+\f0\b\fs28 \cf4 \strokec4 umber_of_last_touches\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf4 utm_source\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf4 utm_campaign\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2941\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx2880
+\clvertalc \clcbpat9 \clwWidth1403\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx5760
+\clvertalc \clcbpat9 \clwWidth4595\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+
+\f1\b0 \cf8 \strokec8 114\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 email\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 weekly-newsletter\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2941\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx2880
+\clvertalc \clcbpat9 \clwWidth1403\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx5760
+\clvertalc \clcbpat9 \clwWidth4595\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 112\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 facebook\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 retargetting-ad\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2941\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx2880
+\clvertalc \clcbpat9 \clwWidth1403\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx5760
+\clvertalc \clcbpat9 \clwWidth4595\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 53\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 email\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 retargetting-campaign\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2941\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx2880
+\clvertalc \clcbpat9 \clwWidth1403\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx5760
+\clvertalc \clcbpat9 \clwWidth4595\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 52\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 google\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 paid-search\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2941\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx2880
+\clvertalc \clcbpat9 \clwWidth1403\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx5760
+\clvertalc \clcbpat9 \clwWidth4595\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 9\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 nytimes\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 getting-to-know-cool-tshirts\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2941\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx2880
+\clvertalc \clcbpat9 \clwWidth1403\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx5760
+\clvertalc \clcbpat9 \clwWidth4595\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 9\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 buzzfeed\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 ten-crazy-cool-tshirts-facts\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2941\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx2880
+\clvertalc \clcbpat9 \clwWidth1403\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx5760
+\clvertalc \clcbpat9 \clwWidth4595\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 7\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 medium\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 interview-with-cool-tshirts-founder\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat6 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat9 \clwWidth2941\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx2880
+\clvertalc \clcbpat9 \clwWidth1403\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx5760
+\clvertalc \clcbpat9 \clwWidth4595\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt20 \clpadl120 \clpadb20 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 2\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 google\cell 
+\pard\intbl\itap1\pardeftab720\sl340\qc\partightenfactor0
+\cf8 cool-tshirts-search\cell \lastrow\row
+\pard\pardeftab720\sl300\partightenfactor0
+
+\fs26\fsmilli13200 \cf2 \strokec2 \
+\
+\
+\
+\pard\pardeftab720\sl300\partightenfactor0
+\cf2 \
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+}
